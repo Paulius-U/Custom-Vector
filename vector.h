@@ -128,15 +128,15 @@ typename vector<T>::value vector<T>::at( size_type i )
 }
 
 template <class T> 
-void vector<T>::reserve( size_type new_cap ) 
+void vector<T>::reserve( size_type new_capacity ) 
 {
-    if (new_cap > capacity()) {
-        iterator new_data = alloc.allocate(new_cap);    
+    if (new_capacity > capacity()) {
+        iterator new_data = alloc.allocate(new_capacity);    
         iterator new_available = std::uninitialized_copy(data, available, new_data);   
         uncreate();
         data = new_data;    
         available = new_available;     
-        limitas = data + new_cap;
+        limitas = data + new_capacity;
     }
 }
 
