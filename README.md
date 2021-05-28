@@ -18,7 +18,7 @@ Patikrinami ar visi testai veikia:
 
 Spartos analize:
 
-![image](https://user-images.githubusercontent.com/75576100/119939757-fddc3980-bf96-11eb-8912-0a1bfa2c33bc.png)
+![image](https://user-images.githubusercontent.com/75576100/119941160-e69e4b80-bf98-11eb-86ff-6da54d3e0401.png)
 
 Atminties perskisrtymai:
 
